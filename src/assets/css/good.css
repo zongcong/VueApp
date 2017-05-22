@@ -1,0 +1,474 @@
+@charset "utf-8";
+/* CSS Document */
+/*搜索*/
+body{
+	background-color: #fff;
+}
+.search_hd {
+	border-bottom: 1px solid #DADADA;
+	position: relative;
+}
+.store_tb {
+	width: 100%;
+}
+.l_pic {
+	width: 23px;
+	float: left;
+}
+.l_txt {
+	float: left;
+	margin-top: 2px;
+	margin-left: 2px;
+}
+.td_01 {
+	width: 83px;
+	color: #fff;
+	font-size: 12px;
+}
+.search1 {
+	position: relative;
+}
+.search_btn {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+.sr_pic {
+	width: 25px;
+}
+.s_input1 {
+	padding-left: 33px;
+}
+.del {
+	color: #FFF;
+	background-color: #D2D2D2;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	-webkit-border-radius: 10px;
+	text-align: center;
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	line-height: 18px;
+}
+.td_02 {
+	width: 45px;
+	text-align: center;
+	color: #999;
+	font-size: 16px;
+}
+.td_02 a {
+	color: #999;
+}
+.hot {
+	float: left;
+	color: #999;
+	margin-right: 8px;
+	line-height: 25px;
+}
+.hot a {
+	color: #999;
+	border: 1px solid #ccc;
+	height: 25px;
+	padding: 0px 8px;
+	line-height: 23px;
+	border-radius: 25px;
+}
+.hot_pd {
+	padding: 10px;
+}
+.his_txt {
+	font-size: 16px;
+	color: #999;
+	border-bottom: 1px solid #E8E8E8;
+	padding: 10px;
+}
+.his_list a {
+	color: #333;
+	padding: 10px;
+	border-bottom: 1px solid #E8E8E8;
+}
+.empty {
+	margin-top: 30px;
+}
+.empty a {
+	color: #79c34b;
+	border: 1px solid #79c34b;
+	width: 120px;
+	margin: auto;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-radius: 5px;
+}
+.search_hide {
+	display: none;
+}
+.list_tab {
+	background-color: #fff;
+	padding: 0px;
+	border-bottom: 1px solid #E8E8E8;
+}
+.good_ul {
+	width: 100%;
+	list-style: none;
+}
+.good_ul li {
+	float: left;
+	width: 33.33%;
+	text-align: center;
+	position: relative;
+}
+.good_ul li a {
+	display: block;
+	text-decoration: none;
+	color: #999;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+}
+.good_ul a span {
+	position: relative;
+}
+.good_ul a i {
+	position: absolute;
+	left: 6px;
+	z-index: 1;
+}
+.good_ul a.on i.ico-mt {
+	border-bottom: 5px solid #A5A5A5;
+}
+.good_ul a.on i.ico-mt.ico-slctd {
+	border-bottom: 5px solid #79c34b;
+}
+.good_ul a.on i.ico-mb.ico-slctd {
+	border-top: 5px solid #79c34b;
+}
+.good_ul a.on i.ico-mb {
+	border-top: 5px solid #A5A5A5;
+}
+i.ico-mt, i.ico-mb {
+	border: 4px solid transparent;
+	_border-color: tomato;
+	_filter: chroma(color=#ff6347);
+	height: 0;
+	width: 0;
+}
+i.ico-mt {
+	border-bottom: 5px solid #A5A5A5;
+	top: 0px;
+}
+i.ico-mb {
+	border-top: 5px solid #A5A5A5;
+	border-width: 3px\9;
+ *border-width:3px;
+	right: 6px\9;
+	top: 12px;
+}
+i.ico-mb {
+	border-width: 4px\9;
+	right: 5px\9;
+}
+.good_ul a.on .g_line {
+	position: absolute;
+	bottom: 0px;
+	left: 21%;
+	width: 60%;
+	border: 1px solid #79c34b;
+}
+.list-box {
+	padding: 5px;
+}
+.glist-ul {
+	width: 100%;
+}
+.glist-ul li {
+	width: 50%;
+	float: left;
+	padding: 5px;
+}
+.glist-ul li a {
+	background-color: #FFF;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	overflow: hidden;
+	padding: 5px;
+}
+.list-txt {
+	height: 40px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.old_price {
+	margin-top: 5px;
+	color: #999;
+	font-size: 12px;
+	text-decoration: line-through;
+}
+.new_price {
+	font-size: 16px;
+	color: #79c34b;
+}
+.add_cart {
+	position: absolute;
+	top: 5px;
+	right: 8px;
+}
+/*新人有礼*/
+.gift_img {
+	width: 95px;
+	height: 95px;
+	border: 4px solid #f28a8a;
+	border-radius: 95px;
+	margin: 20px auto 10px auto;
+	overflow: hidden;
+}
+.gift_btn a {
+	width: 70%;
+	margin: 20px auto 0px auto;
+}
+.gift_tip {
+	color: #FFF;
+	margin-top: 5px;
+	text-align: center;
+}
+.g_name {
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+}
+.new_img {
+	width: 80%;
+	margin: 25px auto;
+	text-align: center;
+}
+.new_img img {
+	margin-left: 7%;
+}
+.gift_cover {
+	display: none;
+}
+.gift_main {
+	position: fixed;
+	top: 7%;
+	width: 90%;
+	left: 5%;
+	background-color: #f3edd6;
+	z-index: 2000;
+	padding: 50px 10px 20px 10px;
+}
+.win_mes {
+	color: #e64638;
+}
+.win_tip {
+	width: 45%;
+	text-align: center;
+	position: absolute;
+	top: 16.5%;
+	left: 28%;
+}
+.win_num {
+	width: 45%;
+	text-align: center;
+	position: absolute;
+	top: 39%;
+	left: 28%;
+	font-size: 20px;
+}
+.winbtn_txt {
+	color: #FFF;
+	width: 60%;
+	text-align: center;
+	position: absolute;
+	top: 84.5%;
+	left: 21%;
+}
+.win_warn {
+	color: #e64638;
+	padding: 10px 20px;
+	font-size: 14px;
+	line-height: 24px;
+}
+.win_btn {
+	width: 75%;
+	margin: 15px auto;
+}
+.close_btn {
+	position: absolute;
+	top: 20px;
+	right: 18px;
+	cursor: pointer;
+}
+/*分类*/
+.fl-nav {
+	width: 100%;
+}
+.fl-nav li {
+	height: 40px;
+	line-height: 40px;
+}
+.fl-nav li a {
+	text-align: center;
+	color: #000;
+}
+.fl-nav li a.nav-on {
+	background-color: #fff;
+	color: #79c34b;
+	border-left: 2px solid #79c34b;
+}
+.nav-cate {
+	position: fixed;
+	top: 55px;
+	height: 100%;
+	border-left: 1px solid #E8E8E8;
+	border-right: 1px solid #E8E8E8;
+	overflow-y: scroll;
+	width: 85px;
+	background-color: #f3f3f3;
+}
+.cate-list {
+	padding-left: 90px;
+	padding-right: 5px;
+	padding-top: 58px;
+}
+.fr-ul {
+	width: 100%;
+}
+.fr-ul li {
+	width: 33.33%;
+	float: left;
+	padding: 5px;
+}
+.fr-ul li a {
+	color: #000;
+	background-color: #FFF;
+	text-align: center;
+}
+.frul-txt {
+	padding: 5px 0px;
+}
+.cate_title {
+	text-align: center;
+	font-size: 16px;
+	padding: 5px 0px;
+}
+.cover_sr {
+	background-color: #FFF;
+}
+.cover_sr {
+	position: absolute;
+	width: 100%;
+	top: 55px;
+	left: 0px;
+	z-index: 20002;
+}
+.float_sr {
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 2002;
+}
+/*优惠券*/
+.myKar {
+	width: 100%;
+	margin-top: 15px;
+	padding-left: 30px;
+	position: relative;
+}
+.myKar a {
+	display: block;
+	position: relative;
+	color: #fff;
+}
+.myKar a.style-red {
+	background-image: url(G:/vueproject/shop-app/src/assets/images/coupons_03.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.mon_pic {
+	width: 20px;
+}
+.style-red .price {
+	font-size: 50px;
+	font-weight: bold;
+	margin-right: 10px;
+	margin-left: 6px;
+	margin-top: -17px;
+}
+.cp1 {
+	font-size: 12px;
+}
+.coupons_box {
+	position: absolute;
+	top: 15%;
+	left: 17%;
+}
+.myKar .time {
+	font-size: 12px;
+	left: 20%;
+	bottom: 8%;
+}
+.style-red .time {
+	position: absolute;
+	color: #fa5858;
+	background-color: #FFF;
+	padding: 0px 3px;
+}
+.myKar a.style-blue {
+	background-image: url(G:/vueproject/shop-app/src/assets/images/coupons_06.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.style-blue .price {
+	font-size: 50px;
+	font-weight: bold;
+	margin-right: 10px;
+	margin-left: 6px;
+	margin-top: -17px;
+}
+.style-blue .time {
+	position: absolute;
+	color: #19b5fe;
+	background-color: #FFF;
+	padding: 0px 3px;
+}
+.myKar a.style-yellow {
+	background-image: url(G:/vueproject/shop-app/src/assets/images/coupons_08.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.style-yellow .price {
+	font-size: 50px;
+	font-weight: bold;
+	margin-right: 10px;
+	margin-left: 6px;
+	margin-top: -17px;
+}
+.style-yellow .time {
+	position: absolute;
+	color: #ffa500;
+	background-color: #FFF;
+	padding: 0px 3px;
+}
+.myKar i {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url(G:/vueproject/shop-app/src/assets/images/selected.png) no-repeat;
+	position: absolute;
+	top: 38px;
+	left: 2px;
+	background-position: 0px 0px;
+	background-size: 20px;
+}
+.myKar i.selected {
+	background-position: 0px -19px;
+	background-size: 20px;
+}

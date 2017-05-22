@@ -1,0 +1,59 @@
+import getters from './getters'
+const state={
+	cart:'',//购物车有商品时
+	cartNone:'',//购物车为空时
+	count:1,//购买数量
+	showShop:true,//商品详情
+	showCom:false,//用户评价
+	details:false,//判断商品详情的抢购图标出现
+	hideTab:true,//底部tab状态默认为显示
+};
+
+const mutations={
+	hideCart(state){
+		state.cart=false;
+		state.cartNone=true;
+	},
+	showCart(state){
+		state.cart=true;
+		state.cartNone=false;
+	},
+	increment(state){
+		state.count++;			
+	},
+	decrement(state){
+		if(state.count>1){
+			state.count--;	
+		}		
+	},
+	check(state){
+		if(state.count<0){
+			state.count=1;
+		}	
+	},
+	tabShowLeft(state){
+		state.showShop=true;
+		state.showCom=false;
+	},
+	tabShowRight(state){
+		state.showShop=false;
+		state.showCom=true;
+	},
+	showDetails(state){
+		state.details=true;
+	},
+	hideDetails(state){
+		state.details=false;
+	},
+	hideTable(state){
+		state.hideTab=false;
+	},
+	showTable(state){
+		state.hideTab=true;
+	}
+}
+export default{
+	state,
+	getters,
+	mutations
+}

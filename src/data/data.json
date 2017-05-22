@@ -1,0 +1,28 @@
+[{
+	"id": 1,
+	"img": "https://zongcong.github.io/VueApp/src/assets/images/detail_03.jpg",
+	"title": "三号柜oceanfamily 鲜虾仁41/50 200g",
+	"priceNew":199.00,
+	"priceOlder":299,
+	"num":1,
+	"delicon":"https://zongcong.github.io/VueApp/src/assets/images/del.png"
+
+},{
+	"id": 2,
+	"img": "https://zongcong.github.io/VueApp/src/assets/images/good_06.jpg",
+	"title": "三号柜oceanfamily 鲜虾仁41/50 200g",
+	"priceNew":199.00,
+	"priceOlder":299,
+	"num":1,
+	"delicon":"https://zongcong.github.io/VueApp/src/assets/images/del.png"
+
+},{
+	"id": 3,
+	"img": "https://zongcong.github.io/VueApp/src/assets/images/detail_03.jpg",
+	"title": "三号柜oceanfamily 鲜虾仁41/50 200g",
+	"priceNew":199.00,
+	"priceOlder":299,
+	"num":1,
+	"delicon":"https://zongcong.github.io/VueApp/src/assets/images/del.png"
+
+}]
